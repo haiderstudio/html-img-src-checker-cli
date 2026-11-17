@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><title>Photos</title></head>
+<body>
+<img src="images/logo.png" alt="Our logo">
+<img src="images/icon.svg" alt="A small icon">
+<img src="https://example.com/banner.png" alt="A remote banner">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==" alt="An inline pixel">
+<img src="" alt="An empty src">
+<!-- An image in a comment is not an image:
+<img src="images/also-missing.png" alt="Not checked">
+-->
+<script>
+// An image written in a script string is not an image either:
+var markup = '<img src="images/nope.png">';
+</script>
+</body>
+</html>

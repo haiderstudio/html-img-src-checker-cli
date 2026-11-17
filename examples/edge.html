@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><title>Edge cases</title></head>
+<body>
+<IMG SRC="images/logo.png" alt="Uppercase tag and attribute">
+<img
+  src="images/logo.png?v=2"
+  alt="A query string does not hide the file">
+<img src="/images/logo.png" alt="Root-relative, under the walk root">
+<img src="images/icon.svg#frag" alt="A fragment does not hide the file">
+<img src="images/logo%2Epng" alt="A percent-encoded name still resolves">
+</body>
+</html>
